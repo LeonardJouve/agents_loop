@@ -1,3 +1,5 @@
-// Legacy TypeScript decorators scaffold entrypoint.
-// Concrete decorators will be added in the decorator-specific tickets.
+// Legacy TypeScript decorators entrypoint.
+export { Log } from './log';
+export type { LogOptions, Logger } from './log';
+
 export const LEGACY_DECORATORS_READY = true;
