@@ -1,0 +1,21 @@
+{
+  "name": "decorator-playground",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TypeScript Decorator Playground — monorepo scaffold",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"nub --cwd packages/backend run dev\" \"nub --cwd packages/frontend run dev\"",
+    "test": "echo 'No tests in scaffold yet; tests will land with the decorator tickets.'"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

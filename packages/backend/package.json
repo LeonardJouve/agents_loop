@@ -1,0 +1,21 @@
+{
+  "name": "@decorator-playground/backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hono backend demonstrating generic decorators via thin adapters",
+  "type": "module",
+  "scripts": {
+    "dev": "nub watch src/server.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@decorator-playground/decorators-legacy": "*",
+    "@decorator-playground/decorators-modern": "*",
+    "@hono/node-server": "^1.13.0",
+    "hono": "^4.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}

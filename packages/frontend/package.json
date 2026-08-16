@@ -1,0 +1,18 @@
+{
+  "name": "@decorator-playground/frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Svelte static frontend displaying decorator source and live API calls",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "svelte": "^5.0.0",
+    "typescript": "^5.5.0",
+    "vite": "^5.4.0"
+  }
+}
