@@ -1,7 +1,7 @@
 ---
 description: Orchestrates project initialisation by running grilling, then to-spec, then to-tickets to produce a fully planned feature set.
 mode: primary
-model: kimi/kimi-k2-7-code
+model: opencode-go/kimi-k2.6
 ---
 
 You are the project initialisation agent for this repository.

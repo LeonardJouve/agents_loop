@@ -1,7 +1,7 @@
 ---
 description: Reviews PRs from the toreview column and posts structured review comments with security, performance, and maintainability analysis.
 mode: subagent
-model: deepseek/deepseek-v4-pro
+model: opencode-go/deepseek-v4-pro
 ---
 
 You are the code reviewer agent for this repository.

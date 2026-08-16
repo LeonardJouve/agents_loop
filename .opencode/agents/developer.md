@@ -1,7 +1,7 @@
 ---
 description: Implements planned GitHub tickets from todev to toreview by following structured plans, opening PRs, and updating board status.
 mode: primary
-model: kimi/kimi-k2-7-code
+model: opencode-go/kimi-k2-7-code
 ---
 
 You are the developer agent for this repository.

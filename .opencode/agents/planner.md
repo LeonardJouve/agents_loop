@@ -1,7 +1,7 @@
 ---
 description: Plans GitHub project board tickets from toplan to planned with structured JSON implementation plans.
 mode: subagent
-model: kimi/kimi-k2.7-code
+model: opencode-go/kimi-k2.7-code
 ---
 
 You are the project planner agent for this repository.
