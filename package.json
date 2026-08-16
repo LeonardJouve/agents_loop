@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "dev": "concurrently \"nub --cwd packages/backend run dev\" \"nub --cwd packages/frontend run dev\"",
-    "test": "echo 'No tests in scaffold yet; tests will land with the decorator tickets.'"
+    "test": "nub run --workspaces test"
   },
   "devDependencies": {
     "concurrently": "^9.0.0",

@@ -37,4 +37,4 @@ packages/
 nub run test
 ```
 
-Each package has its own Vitest suite.
+Runs the Vitest suites in every workspace package. The root package also delegates to the workspaces via `nub run --workspaces test`.

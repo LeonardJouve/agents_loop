@@ -1,11 +1,8 @@
 import { serve } from '@hono/node-server';
-import { Hono } from 'hono';
+import { app } from './app';
+import { getPort } from './env';
 
-const app = new Hono();
-
-app.get('/', (c) => c.text('Decorator Playground backend placeholder'));
-
-const port = Number(process.env.PORT ?? 3000);
+const port = getPort();
 
 serve({
   fetch: app.fetch,
